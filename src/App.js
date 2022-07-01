@@ -1,10 +1,12 @@
+import { Box } from '@mui/material';
 import './App.css';
+import Form from './components/Form';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Olá Mundo</h1>
-    </div>
+    <Box className="App">
+      <Form />
+    </Box>
   );
 }
 
